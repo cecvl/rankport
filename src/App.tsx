@@ -79,7 +79,7 @@ export default function App() {
           >
             {/* Top info stamp */}
             <div className="flex justify-between items-center w-full font-mono text-[10px] tracking-widest text-earth-cream/40">
-              <span>SOPHIA MARTINEZ • STUDIO WORK '26</span>
+              <span>CHRISTIAN CECIL • STUDIO WORK '26</span>
               <span>INDEX: 0% / LOADING</span>
             </div>
 
@@ -104,9 +104,9 @@ export default function App() {
                   transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
                   className="font-sans text-5xl md:text-8xl font-black uppercase leading-[0.85] tracking-tighter"
                 >
-                  SOPHIA <br />
+                  CHRISTIAN <br />
                   <span className="text-earth-clay">
-                    MARTINEZ
+                    CECIL O.ASUNA
                   </span>
                 </motion.h2>
               </div>

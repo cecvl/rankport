@@ -95,7 +95,7 @@ export default function IntroSection({
               className="inline-flex items-center gap-2 px-4 py-1.5 bg-earth-sand/40 border border-white/10 text-earth-clay font-mono text-[11px] tracking-widest uppercase mb-6"
             >
               <Sparkles size={12} className="text-earth-clay" />
-              DIGITAL ARCHITECT // BARCELONA
+              DIGITAL ARCHITECT // NAIROBI
             </motion.div>
 
             {/* Headline Title */}
@@ -103,9 +103,9 @@ export default function IntroSection({
               variants={itemVariants}
               className="font-sans text-6xl md:text-8xl font-black leading-[0.85] tracking-tighter uppercase text-earth-ink mb-6"
             >
-              SOPHIA<br />
+              CHRISTIAN<br />
               <span className="text-earth-clay">
-                MARTINEZ
+                CECIL 
               </span>
             </motion.h1>
 
@@ -139,7 +139,7 @@ export default function IntroSection({
                 </div>
                 <div className="flex flex-col">
                   <span className="text-earth-ink/40 uppercase text-[9px] tracking-wider">Based In</span>
-                  <span className="text-earth-ink font-semibold">Barcelona, Spain</span>
+                  <span className="text-earth-ink font-semibold">Nairobi, Kenya</span>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -206,7 +206,7 @@ export default function IntroSection({
                 {/* Vintage gallery layout styling */}
                 <div className="flex justify-between items-center border-b border-white/10 pb-3">
                   <span className="font-mono text-[9px] tracking-widest text-earth-ink/40 uppercase">
-                    VANCE_PORTRAIT // SERIES_01
+                    IN KARNATARKA , INDIA 
                   </span>
                   <div className="flex gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-earth-clay"></span>
@@ -217,8 +217,8 @@ export default function IntroSection({
                 {/* Avatar Portrait container with clean overlay frames */}
                 <div className="my-4 flex-1 overflow-hidden border border-white/10 relative group bg-black">
                   <img
-                    src="/src/assets/images/artsy_avatar_1781518018232.jpg"
-                    alt="Sophia Martinez Art Portrait"
+                    src="/src/assets/images/profileimage.jpg"
+                    alt="Christian Cecil Portrait"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-700"
                     onError={(e) => {
@@ -232,7 +232,7 @@ export default function IntroSection({
                 {/* Portrait Label block */}
                 <div className="flex justify-between items-end pt-3 border-t border-white/10 font-mono text-xs">
                   <div>
-                    <h3 className="font-bold text-earth-ink uppercase tracking-wider">Fig 1. Self Portrait</h3>
+                    <h3 className="font-bold text-earth-ink uppercase tracking-wider">Self Portrait</h3>
                     <p className="text-[9px] text-earth-ink/40 uppercase tracking-widest mt-0.5">
                       Vector Abstract Block
                     </p>
