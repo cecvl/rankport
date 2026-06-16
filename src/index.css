@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Professional Polish premium color system */
+  --color-earth-cream: #0A0A0A;    /* Stark dark background */
+  --color-earth-ink: #F0F0F0;      /* Crisp slate white details */
+  --color-earth-clay: #F97316;     /* Signature brand orange-500 and vivid clays */
+  --color-earth-sage: #141414;     /* Premium matte panels */
+  --color-earth-ochre: #F97316;    /* Secondary warm orange accent */
+  --color-earth-sand: #1F1F1F;     /* Subtle container grey */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-earth-cream);
+    color: var(--color-earth-ink);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}

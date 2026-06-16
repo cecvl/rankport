@@ -1,0 +1,6 @@
+{
+  "name": "Artsy Portfolio",
+  "description": "An immersive, artsy-themed personal portfolio with fluid overlapping block transitions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
