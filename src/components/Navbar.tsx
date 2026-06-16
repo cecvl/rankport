@@ -55,10 +55,10 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           </div>
           <div className="flex flex-col text-left">
             <span className="font-serif font-bold text-sm tracking-wider text-earth-ink">
-              C. CECIL
+              CREATIONS BY CC
             </span>
             <span className="font-mono text-[10px] tracking-widest text-earth-ink/60 uppercase">
-              Creative Portfolio '26
+              Portfolio
             </span>
           </div>
         </button>

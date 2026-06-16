@@ -56,7 +56,7 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
           <div className="text-left">
             <div className="flex items-center gap-2 text-earth-clay font-mono text-xs tracking-widest uppercase mb-3">
               <Layers size={14} />
-              SECTION 02 // SELECTED PROJECTS [2024-2026]
+              SELECTED PROJECTS [2024-2026]
             </div>
             <h2 className="font-sans text-4xl md:text-5xl font-black text-earth-ink tracking-tighter uppercase mb-2">
               Curated Index

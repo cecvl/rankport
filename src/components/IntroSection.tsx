@@ -130,7 +130,7 @@ export default function IntroSection({
                 </div>
                 <div className="flex flex-col">
                   <span className="text-earth-ink/40 uppercase text-[9px] tracking-wider">Role</span>
-                  <span className="text-earth-ink font-semibold">Creative Lead, AV.Studio</span>
+                  <span className="text-earth-ink font-semibold">Intern, SoftTech Solutions</span>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -148,7 +148,7 @@ export default function IntroSection({
                 </div>
                 <div className="flex flex-col">
                   <span className="text-earth-ink/40 uppercase text-[9px] tracking-wider">Availability</span>
-                  <span className="text-earth-ink font-semibold">Available for Q3 '26</span>
+                  <span className="text-earth-ink font-semibold">Available for Q4 '26</span>
                 </div>
               </div>
             </motion.div>

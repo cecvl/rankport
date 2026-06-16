@@ -25,16 +25,16 @@ export default function ContactSection({}: ContactSectionProps) {
     {
       id: "gmail",
       label: "Email Draft",
-      value: "sophia.martinez@artsystudio.co",
-      href: "mailto:sophia.martinez@artsystudio.co",
+      value: "christiancecil.dev@gmail.com",
+      href: "mailto:christiancecil.dev@gmail.com",
       icon: <Mail size={16} />,
       color: "hover:bg-earth-clay hover:text-earth-cream"
     },
     {
       id: "github",
       label: "Digital Repository",
-      value: "github.com/sophia-martinez-codes",
-      href: "https://github.com",
+      value: "github.com/cecvl",
+      href: "https://github.com/cecvl",
       icon: <Github size={16} />,
       color: "hover:bg-earth-ink hover:text-earth-cream"
     },
@@ -70,13 +70,13 @@ export default function ContactSection({}: ContactSectionProps) {
         <div className="flex flex-col items-start text-left mb-16 pb-8 border-b border-white/10">
           <span className="font-mono text-xs tracking-widest text-earth-clay font-semibold uppercase mb-3 flex items-center gap-2">
             <Globe size={13} />
-            SECTION 03 // ACTION & CONNECTION
+            ACTION & CONNECTION
           </span>
           <h2 className="font-sans text-4xl md:text-5xl font-black text-earth-ink tracking-tighter uppercase">
             Initiate Contact
           </h2>
           <p className="font-sans text-xs md:text-sm tracking-wide text-earth-ink/65 mt-2 max-w-xl uppercase">
-            Drop lines to discuss digital design commissions, request custom creative software prototyping, or coordinate visual strategy.
+          discuss digital design commissions, request custom creative software prototyping, or coordinate visual strategy.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export default function ContactSection({}: ContactSectionProps) {
                     {/* Name input */}
                     <div className="flex flex-col gap-2">
                       <label htmlFor="form-name" className="font-mono text-[10px] uppercase tracking-widest text-[#F0F0F0]/60 font-bold pl-1">
-                        Your Nomenclature / Name
+                        Your Name
                       </label>
                       <input
                         id="form-name"
@@ -121,7 +121,7 @@ export default function ContactSection({}: ContactSectionProps) {
                     {/* Email input */}
                     <div className="flex flex-col gap-2">
                       <label htmlFor="form-email" className="font-mono text-[10px] uppercase tracking-widest text-[#F0F0F0]/60 font-bold pl-1">
-                        Return Digital Address / Email
+                        Your Email Address
                       </label>
                       <input
                         id="form-email"
@@ -252,9 +252,9 @@ export default function ContactSection({}: ContactSectionProps) {
 
         {/* Vintage copyright footer plates */}
         <div className="mt-24 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono text-[#F0F0F0]/40 uppercase tracking-widest">
-          <p>© 2026 SOPHIA MARTINEZ. HARMONIZED SYSTEM BUILT WITH REACT & MOTION.</p>
+          <p>© 2026 CHRISTIAN CECIL OCHIENG ASUNA</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-earth-clay">SYSTEM RULES</a>
+            <a href="#" className="hover:text-earth-clay">back to top</a>
             <span>•</span>
             <a href="#" className="hover:text-earth-clay">INDEX RECORD</a>
           </div>
