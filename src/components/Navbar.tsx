@@ -54,9 +54,6 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
             </motion.span>
           </div>
           <div className="flex flex-col text-left">
-            <span className="font-serif font-bold text-sm tracking-wider text-earth-ink">
-              CREATIONS BY CC
-            </span>
             <span className="font-mono text-xs tracking-widest text-earth-ink/60 uppercase">
               Portfolio
             </span>

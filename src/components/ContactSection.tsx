@@ -41,8 +41,8 @@ export default function ContactSection({}: ContactSectionProps) {
     {
       id: "linkedin",
       label: "B2B Registry",
-      value: "linkedin.com/in/sophia-m",
-      href: "https://linkedin.com",
+      value: "linkedin.com/in/christian-cecil",
+      href: "https://www.linkedin.com/in/christian-cecil?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       icon: <Linkedin size={16} />,
       color: "hover:bg-earth-sage hover:text-earth-cream"
     },
@@ -113,7 +113,7 @@ export default function ContactSection({}: ContactSectionProps) {
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        placeholder="ALEXIS VANCE"
+                        placeholder="EMILY MZIMELA"
                         className="bg-black/40 border border-white/10 px-4 py-3 text-sm focus:border-earth-clay outline-none transition-all duration-300 placeholder:text-white/20 text-[#F0F0F0]"
                       />
                     </div>
@@ -129,7 +129,7 @@ export default function ContactSection({}: ContactSectionProps) {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="vance@av.studio"
+                        placeholder="emilymzimela@gmail.com"
                         className="bg-black/40 border border-white/10 px-4 py-3 text-sm focus:border-earth-clay outline-none transition-all duration-300 placeholder:text-white/20 text-[#F0F0F0]"
                       />
                     </div>
@@ -256,7 +256,7 @@ export default function ContactSection({}: ContactSectionProps) {
           <div className="flex gap-6">
             <a href="#" className="hover:text-earth-clay">back to top</a>
             <span>•</span>
-            <a href="#" className="hover:text-earth-clay">INDEX RECORD</a>
+            
           </div>
         </div>
 

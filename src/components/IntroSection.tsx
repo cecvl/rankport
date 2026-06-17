@@ -77,7 +77,7 @@ export default function IntroSection({
         transition={{ duration: 1.6, ease: [0.16, 1, 0.3, 1] }}
                 className="absolute right-[8%] top-[18%] w-24 h-24 rounded-full border border-white/10 hidden lg:flex items-center justify-center text-xs font-mono tracking-widest text-earth-ink/30 select-none animate-[spin_25s_linear_infinite]"
       >
-        <span className="absolute">ALEXIS • VANCE • STYLE • SYSTEM •</span>
+        <span className="absolute">SYSTEMS</span>
       </motion.div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full z-20 relative">
@@ -203,17 +203,6 @@ export default function IntroSection({
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 className="absolute inset-0 bg-[#141414] border border-white/15 p-6 flex flex-col justify-between shadow-2xl z-10"
               >
-                {/* Vintage gallery layout styling */}
-                <div className="flex justify-between items-center border-b border-white/10 pb-3">
-                  <span className="font-mono text-xs tracking-widest text-earth-ink/40 uppercase">
-                    IN KARNATARKA , INDIA 
-                  </span>
-                  <div className="flex gap-1.5">
-                    <span className="w-2 h-2 rounded-full bg-earth-clay"></span>
-                    <span className="w-2 h-2 rounded-full bg-white/20"></span>
-                  </div>
-                </div>
-
                 {/* Avatar Portrait container with clean overlay frames */}
                 <div className="my-4 flex-1 overflow-hidden border border-white/10 relative group bg-black">
                   <img
