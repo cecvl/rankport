@@ -54,14 +54,14 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 mb-16 pb-8 border-b border-white/10">
           <div className="text-left">
-            <div className="flex items-center gap-2 text-earth-clay font-mono text-xs tracking-widest uppercase mb-3">
+            <div className="flex items-center gap-2 text-earth-clay font-mono text-sm tracking-widest uppercase mb-3">
               <Layers size={14} />
               SELECTED PROJECTS [2024-2026]
             </div>
             <h2 className="font-sans text-4xl md:text-5xl font-black text-earth-ink tracking-tighter uppercase mb-2">
               Curated Index
             </h2>
-            <p className="font-sans text-xs md:text-sm tracking-wide text-earth-ink/65 max-w-xl uppercase">
+            <p className="font-sans text-sm md:text-base tracking-wide text-earth-ink/65 max-w-xl uppercase">
               An inventory of digital artifacts, high-performance web systems, and creative spatial code layouts.
             </p>
           </div>
@@ -75,7 +75,7 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
                   key={tag}
                   id={`filter-tag-${tag.replace(/\s+/g, "-")}`}
                   onClick={() => setSelectedTag(tag)}
-                  className={`px-4 py-2 font-mono text-[10px] tracking-widest uppercase transition-all duration-300 cursor-pointer ${
+                  className={`px-4 py-2 font-mono text-xs tracking-widest uppercase transition-all duration-300 cursor-pointer ${
                     isSelected
                       ? "bg-earth-clay text-white font-bold scale-102"
                       : "bg-[#141414] border border-white/10 text-earth-ink/75 hover:bg-white/5"
@@ -124,7 +124,7 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
                           [{project.id}]
                         </span>
                         <div className="h-3 w-[1px] bg-black/15" />
-                        <span className="font-mono text-[9px] uppercase tracking-widest text-[#F0F0F0] bg-[#141414] px-2 py-0.5 font-semibold">
+                        <span className="font-mono text-xs uppercase tracking-widest text-[#F0F0F0] bg-[#141414] px-2 py-0.5 font-semibold">
                           {project.category}
                         </span>
                       </div>
@@ -139,7 +139,7 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
                       <h3 className="font-sans text-2xl font-black text-[#0A0A0A] tracking-tight uppercase mb-3 group-hover:text-earth-clay transition-colors">
                         {project.title}
                       </h3>
-                      <p className="font-sans text-xs md:text-sm text-black/75 leading-relaxed uppercase tracking-wider">
+                      <p className="font-sans text-sm md:text-base text-black/75 leading-relaxed uppercase tracking-wider">
                         {project.description}
                       </p>
                     </div>
@@ -147,7 +147,7 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
                     {/* Footer Tags & CTA Link plates */}
                     <div className="pt-6 border-t border-black/10 flex flex-wrap justify-between items-center gap-4">
                       {/* Tags */}
-                      <div className="flex flex-wrap gap-1.5 font-mono text-[9px] text-[#0A0A0A]/60">
+                      <div className="flex flex-wrap gap-1.5 font-mono text-xs text-[#0A0A0A]/60">
                         {project.tags.map((tag) => (
                           <span
                             key={tag}
@@ -162,7 +162,7 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
                       <button
                         id={`project-demo-btn-${project.id}`}
                         onClick={onContactNav}
-                        className="flex items-center gap-1 text-[10px] uppercase font-mono font-bold text-[#0A0A0A] hover:text-earth-clay transition-colors cursor-pointer"
+                        className="flex items-center gap-1 text-xs uppercase font-mono font-bold text-[#0A0A0A] hover:text-earth-clay transition-colors cursor-pointer"
                       >
                         Explore Case
                         <ArrowUpRight
@@ -191,13 +191,13 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
             </div>
             <div>
               <h4 className="font-sans font-black text-lg text-earth-ink uppercase tracking-tight">Need a tailored visual product?</h4>
-              <p className="font-sans text-xs text-earth-ink/65 uppercase tracking-wide">Let's prototype custom layered transitions and high-end animations together.</p>
+              <p className="font-sans text-sm text-earth-ink/65 uppercase tracking-wide">Let's prototype custom layered transitions and high-end animations together.</p>
             </div>
           </div>
           <button
             id="projects-cta-contact-btn"
             onClick={onContactNav}
-            className="flex items-center gap-2 bg-earth-clay text-white hover:bg-white hover:text-black px-6 py-3 font-mono text-xs tracking-wider uppercase transition-all cursor-pointer"
+            className="flex items-center gap-2 bg-earth-clay text-white hover:bg-white hover:text-black px-6 py-3 font-mono text-sm tracking-wider uppercase transition-all cursor-pointer"
           >
             Start Conversation
             <ChevronRight size={14} />

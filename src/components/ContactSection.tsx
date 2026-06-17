@@ -68,14 +68,14 @@ export default function ContactSection({}: ContactSectionProps) {
         
         {/* Title details */}
         <div className="flex flex-col items-start text-left mb-16 pb-8 border-b border-white/10">
-          <span className="font-mono text-xs tracking-widest text-earth-clay font-semibold uppercase mb-3 flex items-center gap-2">
+          <span className="font-mono text-sm tracking-widest text-earth-clay font-semibold uppercase mb-3 flex items-center gap-2">
             <Globe size={13} />
             ACTION & CONNECTION
           </span>
           <h2 className="font-sans text-4xl md:text-5xl font-black text-earth-ink tracking-tighter uppercase">
             Initiate Contact
           </h2>
-          <p className="font-sans text-xs md:text-sm tracking-wide text-earth-ink/65 mt-2 max-w-xl uppercase">
+          <p className="font-sans text-sm md:text-base tracking-wide text-earth-ink/65 mt-2 max-w-xl uppercase">
           discuss digital design commissions, request custom creative software prototyping, or coordinate visual strategy.
           </p>
         </div>
@@ -86,7 +86,7 @@ export default function ContactSection({}: ContactSectionProps) {
           {/* LEFT: Structural contact form */}
           <div className="lg:col-span-7 bg-[#141414] border border-white/10 p-6 md:p-8 relative">
             <div className="absolute inset-x-0 -top-3 flex justify-center">
-              <span className="bg-earth-clay text-white font-mono text-[9px] tracking-widest uppercase px-4 py-1 border border-white/10">
+              <span className="bg-earth-clay text-white font-mono text-xs tracking-widest uppercase px-4 py-1 border border-white/10">
                 SECURE RELAY CHANNEL
               </span>
             </div>
@@ -104,7 +104,7 @@ export default function ContactSection({}: ContactSectionProps) {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Name input */}
                     <div className="flex flex-col gap-2">
-                      <label htmlFor="form-name" className="font-mono text-[10px] uppercase tracking-widest text-[#F0F0F0]/60 font-bold pl-1">
+                      <label htmlFor="form-name" className="font-mono text-xs uppercase tracking-widest text-[#F0F0F0]/60 font-bold pl-1">
                         Your Name
                       </label>
                       <input
@@ -120,7 +120,7 @@ export default function ContactSection({}: ContactSectionProps) {
 
                     {/* Email input */}
                     <div className="flex flex-col gap-2">
-                      <label htmlFor="form-email" className="font-mono text-[10px] uppercase tracking-widest text-[#F0F0F0]/60 font-bold pl-1">
+                      <label htmlFor="form-email" className="font-mono text-xs uppercase tracking-widest text-[#F0F0F0]/60 font-bold pl-1">
                         Your Email Address
                       </label>
                       <input
@@ -137,7 +137,7 @@ export default function ContactSection({}: ContactSectionProps) {
 
                   {/* Message textarea */}
                   <div className="flex flex-col gap-2">
-                    <label htmlFor="form-message" className="font-mono text-[10px] uppercase tracking-widest text-[#F0F0F0]/60 font-bold pl-1">
+                    <label htmlFor="form-message" className="font-mono text-xs uppercase tracking-widest text-[#F0F0F0]/60 font-bold pl-1">
                       Briefing / Message
                     </label>
                     <textarea
@@ -156,7 +156,7 @@ export default function ContactSection({}: ContactSectionProps) {
                     id="submit-form-btn"
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full flex items-center justify-center gap-3 bg-white text-black hover:bg-earth-clay hover:text-white py-4 font-mono text-xs tracking-widest uppercase cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
+                    className="w-full flex items-center justify-center gap-3 bg-white text-black hover:bg-earth-clay hover:text-white py-4 font-mono text-sm tracking-widest uppercase cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
                   >
                     {isSubmitting ? (
                       <>
@@ -187,7 +187,7 @@ export default function ContactSection({}: ContactSectionProps) {
                     <h3 className="font-sans text-2xl font-black text-earth-ink uppercase tracking-tight">
                       Dispatch Successful
                     </h3>
-                    <p className="font-sans text-xs md:text-sm text-earth-ink/75 max-w-md mt-2 leading-relaxed uppercase tracking-wide">
+                    <p className="font-sans text-sm md:text-base text-earth-ink/75 max-w-md mt-2 leading-relaxed uppercase tracking-wide">
                       Thank you, <span className="font-bold text-earth-clay">{formData.name}</span>! Your message has been routed to our active layouts channel.
                     </p>
                   </div>
@@ -197,7 +197,7 @@ export default function ContactSection({}: ContactSectionProps) {
                       setFormData({ name: "", email: "", message: "" });
                       setIsSubmitted(false);
                     }}
-                    className="px-5 py-2.5 bg-[#141414] text-white hover:bg-white hover:text-black transition-all font-mono text-[10px] tracking-widest uppercase cursor-pointer border border-white/10"
+                    className="px-5 py-2.5 bg-[#141414] text-white hover:bg-white hover:text-black transition-all font-mono text-xs tracking-widest uppercase cursor-pointer border border-white/10"
                   >
                     Send Another Response
                   </button>
@@ -211,7 +211,7 @@ export default function ContactSection({}: ContactSectionProps) {
             
             {/* Social registries list */}
             <div className="space-y-4 text-left">
-              <h3 className="font-mono text-[11px] tracking-widest text-[#F0F0F0]/50 uppercase pl-1">
+              <h3 className="font-mono text-sm tracking-widest text-[#F0F0F0]/50 uppercase pl-1">
                 Visual & Code Registries
               </h3>
               <div className="grid grid-cols-1 gap-3">
@@ -230,10 +230,10 @@ export default function ContactSection({}: ContactSectionProps) {
                         {link.icon}
                       </div>
                       <div className="flex flex-col text-left">
-                        <span className="font-mono text-[8px] uppercase tracking-widest font-bold text-white/40">
+                        <span className="font-mono text-xs uppercase tracking-widest font-bold text-white/40">
                           {link.label}
                         </span>
-                        <span className="font-mono text-xs font-bold text-[#F0F0F0] tracking-wider truncate max-w-[200px] md:max-w-xs uppercase">
+                        <span className="font-mono text-sm font-bold text-[#F0F0F0] tracking-wider truncate max-w-[200px] md:max-w-xs uppercase">
                           {link.value}
                         </span>
                       </div>

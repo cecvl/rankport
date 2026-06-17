@@ -75,7 +75,7 @@ export default function IntroSection({
         initial={{ scale: 0, rotate: -45 }}
         animate={{ scale: 1, rotate: 0 }}
         transition={{ duration: 1.6, ease: [0.16, 1, 0.3, 1] }}
-        className="absolute right-[8%] top-[18%] w-24 h-24 rounded-full border border-white/10 hidden lg:flex items-center justify-center text-[9px] font-mono tracking-widest text-earth-ink/30 select-none animate-[spin_25s_linear_infinite]"
+                className="absolute right-[8%] top-[18%] w-24 h-24 rounded-full border border-white/10 hidden lg:flex items-center justify-center text-xs font-mono tracking-widest text-earth-ink/30 select-none animate-[spin_25s_linear_infinite]"
       >
         <span className="absolute">ALEXIS • VANCE • STYLE • SYSTEM •</span>
       </motion.div>
@@ -92,10 +92,10 @@ export default function IntroSection({
             {/* Introductory Badge */}
             <motion.div
               variants={itemVariants}
-              className="inline-flex items-center gap-2 px-4 py-1.5 bg-earth-sand/40 border border-white/10 text-earth-clay font-mono text-[11px] tracking-widest uppercase mb-6"
+              className="inline-flex items-center gap-2 px-4 py-1.5 bg-earth-sand/40 border border-white/10 text-earth-clay font-mono text-xs tracking-widest uppercase mb-6"
             >
               <Sparkles size={12} className="text-earth-clay" />
-              DIGITAL ARCHITECT // NAIROBI
+              SOFTWARE ENGINEER // NAIROBI
             </motion.div>
 
             {/* Headline Title */}
@@ -105,7 +105,7 @@ export default function IntroSection({
             >
               CHRISTIAN<br />
               <span className="text-earth-clay">
-                CECIL 
+                CECIL O. ASUNA
               </span>
             </motion.h1>
 
@@ -114,7 +114,7 @@ export default function IntroSection({
               variants={itemVariants}
               className="border-l-4 border-earth-clay pl-6 py-2 mb-8 max-w-xl"
             >
-              <p className="font-sans uppercase text-xs md:text-sm tracking-wide text-earth-ink/75 leading-relaxed">
+              <p className="font-sans uppercase text-sm md:text-base tracking-wide text-earth-ink/75 leading-relaxed">
                 Crafting immersive digital narratives through brutalist geometry, refined interaction design, and fluid interactive paint simulations.
               </p>
             </motion.div>
@@ -122,14 +122,14 @@ export default function IntroSection({
             {/* Bio stats card */}
             <motion.div
               variants={itemVariants}
-              className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-2xl py-6 border-y border-white/10 mb-10 text-xs font-mono"
+              className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-2xl py-6 border-y border-white/10 mb-10 text-sm font-mono"
             >
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 bg-white/5 border border-white/10 flex items-center justify-center text-earth-clay">
                   <Briefcase size={14} />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-earth-ink/40 uppercase text-[9px] tracking-wider">Role</span>
+                  <span className="text-earth-ink/40 uppercase text-xs tracking-wider">Role</span>
                   <span className="text-earth-ink font-semibold">Intern, SoftTech Solutions</span>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function IntroSection({
                   <MapPin size={14} />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-earth-ink/40 uppercase text-[9px] tracking-wider">Based In</span>
+                  <span className="text-earth-ink/40 uppercase text-xs tracking-wider">Based In</span>
                   <span className="text-earth-ink font-semibold">Nairobi, Kenya</span>
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function IntroSection({
                   <Eye size={14} />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-earth-ink/40 uppercase text-[9px] tracking-wider">Availability</span>
+                  <span className="text-earth-ink/40 uppercase text-xs tracking-wider">Availability</span>
                   <span className="text-earth-ink font-semibold">Available for Q4 '26</span>
                 </div>
               </div>
@@ -205,7 +205,7 @@ export default function IntroSection({
               >
                 {/* Vintage gallery layout styling */}
                 <div className="flex justify-between items-center border-b border-white/10 pb-3">
-                  <span className="font-mono text-[9px] tracking-widest text-earth-ink/40 uppercase">
+                  <span className="font-mono text-xs tracking-widest text-earth-ink/40 uppercase">
                     IN KARNATARKA , INDIA 
                   </span>
                   <div className="flex gap-1.5">
@@ -233,7 +233,7 @@ export default function IntroSection({
                 <div className="flex justify-between items-end pt-3 border-t border-white/10 font-mono text-xs">
                   <div>
                     <h3 className="font-bold text-earth-ink uppercase tracking-wider">Self Portrait</h3>
-                    <p className="text-[9px] text-earth-ink/40 uppercase tracking-widest mt-0.5">
+                    <p className="text-xs text-earth-ink/40 uppercase tracking-widest mt-0.5">
                       Vector Abstract Block
                     </p>
                   </div>

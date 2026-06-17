@@ -106,7 +106,7 @@ export default function App() {
                 >
                   CHRISTIAN <br />
                   <span className="text-earth-clay">
-                    CECIL O.ASUNA
+                    CECIL 
                   </span>
                 </motion.h2>
               </div>

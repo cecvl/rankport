@@ -57,7 +57,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
             <span className="font-serif font-bold text-sm tracking-wider text-earth-ink">
               CREATIONS BY CC
             </span>
-            <span className="font-mono text-[10px] tracking-widest text-earth-ink/60 uppercase">
+            <span className="font-mono text-xs tracking-widest text-earth-ink/60 uppercase">
               Portfolio
             </span>
           </div>
@@ -73,7 +73,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
                   <button
                     id={`nav-item-${item.id}`}
                     onClick={() => onNavigate(item.id)}
-                    className={`px-4 py-2 text-xs font-medium tracking-widest uppercase transition-colors duration-300 relative z-10 cursor-pointer ${
+                    className={`px-4 py-2 text-sm font-medium tracking-widest uppercase transition-colors duration-300 relative z-10 cursor-pointer ${
                       isActive ? "text-earth-cream font-semibold" : "text-earth-ink/75 hover:text-earth-ink"
                     }`}
                   >
@@ -96,7 +96,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           <button
             id="nav-availability-btn"
             onClick={() => onNavigate("contact")}
-            className="flex items-center gap-2 px-4 py-2 border border-earth-ink/20 rounded-full hover:bg-earth-ink hover:text-earth-cream transition-all duration-300 font-mono text-[10px] tracking-wider uppercase cursor-pointer"
+            className="flex items-center gap-2 px-4 py-2 border border-earth-ink/20 rounded-full hover:bg-earth-ink hover:text-earth-cream transition-all duration-300 font-mono text-xs tracking-wider uppercase cursor-pointer"
           >
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
             Hire Me
