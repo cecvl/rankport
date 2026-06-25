@@ -221,14 +221,9 @@ export default function IntroSection({
                 {/* Portrait Label block */}
                 <div className="flex justify-between items-end pt-3 border-t border-white/10 font-mono text-xs">
                   <div>
-                    <h3 className="font-bold text-earth-ink uppercase tracking-wider">Self Portrait</h3>
-                    <p className="text-xs text-earth-ink/40 uppercase tracking-widest mt-0.5">
-                      Vector Abstract Block
-                    </p>
+                   
                   </div>
-                  <span className="text-earth-clay">
-                    [PRO_POLISH]
-                  </span>
+                  
                 </div>
               </motion.div>
             </motion.div>

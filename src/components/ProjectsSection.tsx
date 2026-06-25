@@ -159,9 +159,11 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
                       </div>
 
                       {/* Demo Action Button resembling a stamp plate */}
-                      <button
+                      <a
                         id={`project-demo-btn-${project.id}`}
-                        onClick={onContactNav}
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
                         className="flex items-center gap-1 text-xs uppercase font-mono font-bold text-[#0A0A0A] hover:text-earth-clay transition-colors cursor-pointer"
                       >
                         Explore Case
@@ -169,7 +171,7 @@ export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) 
                           size={13}
                           className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
                         />
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </motion.article>
