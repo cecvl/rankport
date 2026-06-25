@@ -10,7 +10,7 @@ interface ProjectsSectionProps {
 export default function ProjectsSection({ onContactNav }: ProjectsSectionProps) {
   const [selectedTag, setSelectedTag] = useState<string>("ALL");
 
-  const allTags = ["ALL", "Interactive", "Design", "Editorial", "Creative Technology"];
+  const allTags = ["ALL", "Interactive", "Design", "Editorial", "Creative Technology", "Educational"];
 
   // Mapping tags to item tags for precise matching
   const filteredProjects = selectedTag === "ALL"
